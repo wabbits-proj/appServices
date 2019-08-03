@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { PermissionsAndroid } from 'react-native';
 import { Marker } from 'react-native-maps';
 
+
 import { Container, Content, ListView, List } from './styles';
 
 import { requestLocationPermission } from '~/services/utils';
